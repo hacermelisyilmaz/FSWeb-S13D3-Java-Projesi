@@ -26,7 +26,8 @@ public class Person {
         this.age = age;
     }
 
-    public Person(double height, String hairColor, boolean hasGlasses) {
+    public Person(String firstName, String lastName, int age, double height, String hairColor, boolean hasGlasses) {
+        this(firstName, lastName, age);
         this.height = height;
         this.hairColor = hairColor;
         this.hasGlasses = hasGlasses;
